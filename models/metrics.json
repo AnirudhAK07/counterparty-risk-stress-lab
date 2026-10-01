@@ -1,0 +1,62 @@
+{
+  "xgboost_test": {
+    "observations": 1377,
+    "lower_exception_rate": 0.03122730573710966,
+    "upper_exception_rate": 0.030501089324618737,
+    "central_coverage": 0.9382716049382716,
+    "average_interval_width": 0.053111203014850616,
+    "q05_pinball_loss": 0.0014991217193840159,
+    "q95_pinball_loss": 0.0016147668316849766
+  },
+  "historical_baseline_test": {
+    "observations": 1377,
+    "lower_exception_rate": 0.06535947712418301,
+    "upper_exception_rate": 0.05228758169934641,
+    "central_coverage": 0.8823529411764706,
+    "average_interval_width": 0.045653059305169226,
+    "q05_pinball_loss": 0.0015424034096431043,
+    "q95_pinball_loss": 0.001763393957504965
+  },
+  "xgboost_test_every_10th_origin": {
+    "observations": 138,
+    "lower_exception_rate": 0.036231884057971016,
+    "upper_exception_rate": 0.036231884057971016,
+    "central_coverage": 0.927536231884058,
+    "average_interval_width": 0.053196050226688385,
+    "q05_pinball_loss": 0.0015358853247289417,
+    "q95_pinball_loss": 0.0016516192803408007
+  },
+  "historical_baseline_test_every_10th_origin": {
+    "observations": 138,
+    "lower_exception_rate": 0.050724637681159424,
+    "upper_exception_rate": 0.050724637681159424,
+    "central_coverage": 0.8985507246376812,
+    "average_interval_width": 0.04564592098346659,
+    "q05_pinball_loss": 0.0014958394622511487,
+    "q95_pinball_loss": 0.0017934619305361094
+  },
+  "quantile_crossings_before_ordering": 0,
+  "train_rows": 4121,
+  "validation_rows": 1367,
+  "test_rows": 1377,
+  "train_end": "2015-08-18",
+  "validation_start": "2015-09-02",
+  "validation_end": "2021-02-26",
+  "test_start": "2021-03-15",
+  "test_end": "2026-09-11",
+  "chosen_boost_rounds": {
+    "q05": 190,
+    "q95": 395
+  },
+  "data_source": "https://fred.stlouisfed.org/series/DEXUSEU",
+  "data_sha256": "e29fb1db6352e945660e02b2e6088141adeb09df047db1ea9422c72a4897bc67",
+  "data_first_date": "1999-01-04",
+  "data_last_date": "2026-09-25",
+  "data_observations": 6955,
+  "horizon_observations": 10,
+  "future_valuation_elapsed_calendar_days": 14,
+  "usd_rate_assumption": 0.04,
+  "eur_rate_assumption": 0.02,
+  "xgboost_version": "3.4.1",
+  "market_shock_assumption": "spot \u00b115%, illustrative; not a Federal Reserve scenario"
+}

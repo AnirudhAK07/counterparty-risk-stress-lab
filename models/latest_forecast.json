@@ -1,0 +1,11 @@
+{
+  "origin_date": "2026-09-25",
+  "spot": 1.14,
+  "horizon_observations": 10,
+  "q05_log_return": -0.022522037848830223,
+  "q95_log_return": 0.015330297872424126,
+  "lower_spot": 1.1146118464823591,
+  "upper_spot": 1.157611187035272,
+  "latest_quantile_crossing_before_ordering": false,
+  "final_training_label_end": "2026-09-11"
+}
